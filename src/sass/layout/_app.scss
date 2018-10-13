@@ -1,0 +1,21 @@
+.app {
+  background-color: $color-black;
+  border-radius: .5rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, .5);
+  left: 50%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  position: absolute;
+  top: 50%;
+  transition: $transition-3;
+  transform: translate(-50%, -50%);
+
+  &:hover {
+    box-shadow: 0 2rem 10rem rgba(0, 0, 0, .5);
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 1rem 2rem 3rem 2rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,118 @@
+/* universal reset */
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 400px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.content__title {
+  color: #f2f2f2;
+  font-size: 5rem; }
+  .content__title:hover span {
+    color: #673ab7; }
+
+.question__details {
+  border-top: 0.1rem solid #1a1a1a;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  padding-top: 2rem; }
+
+.question__value {
+  font-size: 2rem; }
+
+.results__output {
+  font-size: 2.5rem; }
+
+.btn {
+  background-color: red; }
+
+.content {
+  align-items: center;
+  border-radius: 0.5rem;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .content__body {
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    width: 100%; }
+  .content__title {
+    background-color: #1a1a1a;
+    text-align: center;
+    transition: all .1s;
+    width: 100%; }
+    .content__title span {
+      transition: all 0.3s, font-size 0s; }
+
+.app {
+  background-color: #1a1a1a;
+  border-radius: .5rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+  left: 50%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%); }
+  .app:hover {
+    box-shadow: 0 2rem 10rem rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 600px) {
+    .app {
+      padding: 1rem 2rem 3rem 2rem;
+      width: 100%; } }
+
+body {
+  background-color: #673ab7;
+  height: 100vh; }
+
+.menu {
+  width: 50rem; }
+  @media only screen and (max-width: 600px) {
+    .menu {
+      width: 100%; } }
+
+.question {
+  width: 50rem; }
+  .question__answers {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+  .question__details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+  .question__value {
+    margin-bottom: .5rem;
+    text-align: center; }
+  @media only screen and (max-width: 600px) {
+    .question {
+      width: 100%; } }
+
+.results {
+  width: 40rem; }
+  .results__output {
+    margin-bottom: 2rem;
+    text-align: center; }
+  @media only screen and (max-width: 600px) {
+    .results {
+      width: 100%; } }
+

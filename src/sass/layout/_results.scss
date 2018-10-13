@@ -1,0 +1,12 @@
+.results {
+  width: 40rem;
+
+  &__output {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}

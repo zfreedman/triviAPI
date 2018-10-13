@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  &__body {
+
+  }
+
+  &__title {
+    color: $color-white;
+    font-size: 5rem;
+
+    &:hover {
+
+      span {
+        color: $color-purple;
+      }
+    }
+  }
+}
+
+.question {
+
+  &__details {
+    border-top: .1rem solid $color-black;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+
+  &__value {
+    font-size: 2rem;
+  }
+}
+
+.results {
+  &__output {
+    font-size: 2.5rem;
+  }
+}

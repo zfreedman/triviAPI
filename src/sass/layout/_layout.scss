@@ -1,0 +1,11 @@
+body {
+  // align-items: center;
+  background-color: $color-purple;
+  // display: flex;
+  height: 100vh;
+  // justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    // justify-content: stretch;
+  }
+}
